@@ -1,4 +1,4 @@
-dim = int(raw_input("Insert the number of rows and columns (at least 2): "))
+dim = int(raw_input("Insert the number of rows and columns (at least 2, maximum 9): "))
 
 player_one_matrix = [[0 for x in range(dim)] for x in range(dim)]
 player_two_matrix = [[0 for x in range(dim)] for x in range(dim)]
