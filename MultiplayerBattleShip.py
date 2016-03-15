@@ -3,14 +3,12 @@ dim = int(raw_input("Insert the number of rows and columns (at least 2): "))
 player_one_matrix = [[0 for x in range(dim)] for x in range(dim)]
 player_two_matrix = [[0 for x in range(dim)] for x in range(dim)]
 
-
 def print_board(board):
   for row in board:
     line = ""
     for j in row:
       line += str(j) + " "
     print line
-
 
 player_one = raw_input("Hi Player 1! Insert your name here ")
 player_two = raw_input("Hi Player 2! Insert you name here ")
